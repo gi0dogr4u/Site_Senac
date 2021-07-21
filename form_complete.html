@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastre-se</title>
+</head>
+<body> 
+    <img src="img/senac_logo.png" width="250">
+    <h2>Cadastre-se de forma rápida e fácil e venha fazer parte do nosso time de usuários!</h2><br>
+    <fieldset>
+        <legend><b>Dados Pessoais</b></legend>
+        <form action="redirect_cadastro.html">
+            Nome:<br>
+            <input type="text" name="nome" placeholder="Digite seu primeiro nome" requerid><br><br>
+
+            Sobrenome:<br>
+            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required><br><br>
+
+            CPF:<br>
+            <input type="text" name="cpf" size="9" maxlength="9" placeholder="Informe seu CPF" required> - <input type="text" name="cpf2" size="2" maxlength="2"><br><br>
+
+            Sexo:<br>
+            <input type="radio" name="sexo" value="F">Feminino<br>
+            <input type="radio" name="sexo" value="M">Masculino<br>
+            <input type="radio" name="sexo" value="Outro">Prefiro não informar<br>
+            <input type="radio" name="sexo" value="Outro">Outro? Qual?<br>
+            <textarea></textarea><br><br>
+
+            Data de Nascimento:<br>
+            <input type="date" name="data_nascimento" requerid><br><br>
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><b>Dados de Endereço</b></legend>
+        
+            Estado:<br>
+        <select>
+            <option value="opcoes">Selecione</option>
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="ap">Amapá</option>
+            <option value="am">Amazonas</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="df">Distrito Federal</option>
+            <option value="es">Espírito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="ma">Maranhão</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rr">Roraima</option>
+            <option value="ro">Rondônia</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="sp">São Paulo</option>
+            <option value="se">Sergipe</option>
+            <option value="to">Tocantins</option>
+        </select>
+        <br><br>
+
+            Cidade:<br>
+            <input type="text" name="cidade" requerid><br><br>
+
+            Bairro:<br>
+            <input type="text" name="bairro" requerid><br><br>
+
+            Rua:<br>
+            <input type="text" name="rua"  requerid><br><br>
+            
+            Número:<br>
+            <input type="text" name="numero" size="5" maxlength="5" requerid><br><br>
+
+            CEP:<br>
+            <input type="text" name="cep" size="5" maxlength="5" required> - <input type="text" name="cep2" size="3" maxlength="3" required><br><br>
+   
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><b>Dados de login</b></legend>
+        
+            E-mail:<br>
+            <input type="email" name="email" placeholder="Informe um e-mail válido" required><br><br>
+
+            Imagem de Perfil:<br>
+            <input type="file" name="arquivo"><br><br>
+
+            Nome de Usuário:<br>
+            <input type="text" name="text" required><br><br>
+
+            Senha:<br>
+            <input type="password" name="senha" placeholder="Máximo 9 dígitos" maxlength="9" required><br><br>
+
+            Confirme sua Senha:<br>
+            <input type="password" name="senha2" maxlength="9" required><br><br>
+     
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><b>Selecione os cursos de sua preferência</b></legend>
+       
+            <input type="checkbox">HTML<br><br>
+            <input type="checkbox">PHP<br><br>
+            <input type="checkbox">CSS<br><br>
+            <input type="checkbox">JavaScript<br><br>
+            <input type="checkbox">Phyton<br><br>
+        
+    </fieldset>
+    <br>
+
+    <input type="submit" value="Finalizar Cadastro">
+    </form>
+    
+</body>
+</html>

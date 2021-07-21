@@ -1,0 +1,121 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+    background-color: #191970;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+h1, h2, h3 {
+    font-family: Asap, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+#title {
+    color: #FFFFFF;
+}
+
+#botao {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+.noticias {
+    width: 250px;
+    border: solid #000000 3px;
+    color: #000000;
+    background-color: #FFFFFF;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    height: 550px;
+}
+
+.noticias img {
+    width: 248px;
+}
+
+.noticias a {
+    text-decoration: none;
+}
+/*navegação*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+    height: 75px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+/*cabeçalho*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/geek_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-image: url(../img/geek_background.jpg);
+}
+
+footer h3 {
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* nav */
+
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+    /* cabeçalho */
+
+ header {
+    height: 400px;
+    height: 40vh;
+    justify-content: center;
+}
+}
